@@ -1,0 +1,39 @@
+body {
+    background-color: #dcdcdc;
+  }
+  
+  .object-fit-cover {
+    object-fit: cover;
+    height: 100%;
+  }
+  .sidebar {
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    overflow-y: auto;
+  }
+  
+  .sidebar .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 6px;
+  }
+  
+  .main {
+    margin-left: 250px;
+    min-height: 100vh;
+    background-color: #f8f9fa;
+  }
+  
+  .card {
+    transition: all 0.3s ease;
+    max-width: 100px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .card:hover {
+    transform: scale(1.02);
+  }
+  

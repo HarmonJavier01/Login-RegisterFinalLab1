@@ -1,0 +1,310 @@
+/* General styles */
+body {
+    background-color: #f0f0f0;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+body.dark-mode {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+body.dark-mode .sidebar {
+    background-color: #1e1e1e;
+    border-right: 1px solid #444;
+}
+
+body.dark-mode .sidebar-link {
+    color: #bbb;
+}
+
+body.dark-mode .sidebar-link.active {
+    background-color: #3399ff;
+    color: #fff;
+    border-left: 3px solid #3399ff;
+}
+
+body.dark-mode .sidebar-link:hover {
+    background-color: #2a2a2a;
+    color: #fff;
+}
+
+body.dark-mode .content-area {
+    background-color: #181818;
+    color: #e0e0e0;
+}
+
+body.dark-mode .card {
+    background-color: #242424;
+    color: #e0e0e0;
+    border: 1px solid #333;
+}
+
+body.dark-mode .btn-primary {
+    background-color: #3399ff;
+    border-color: #3399ff;
+}
+
+body.dark-mode .btn-primary:hover {
+    background-color: #267acc;
+    border-color: #267acc;
+}
+
+body.dark-mode .btn-outline-danger {
+    color: #ff6b6b;
+    border-color: #ff6b6b;
+}
+
+body.dark-mode .btn-outline-danger:hover {
+    background-color: #ff6b6b;
+    color: #fff;
+}
+
+/* Logo styling */
+.logo {
+    max-width: 250px;
+    margin: 20px 0;
+}
+
+.logo2 {
+    height: 40px;
+    margin: 5px 0;
+}
+
+/* Login styles */
+.login-container {
+    background: white;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    margin-top: 40px;
+}
+
+.login-image {
+    background-size: cover;
+    background-position: center;
+    min-height: 100px;
+}
+
+/* Button styles */
+.btn-primary {
+    background-color: #00B0F0;
+    border-color: #00B0F0;
+}
+
+.btn-primary:hover {
+    background-color: #0099d6;
+    border-color: #0099d6;
+}
+
+/* Divider styling */
+.divider {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.divider-line {
+    flex-grow: 1;
+    height: 1px;
+    background-color: #ddd;
+}
+
+.divider-text {
+    padding: 0 15px;
+    color: #888;
+}
+
+/* Google button */
+.google-btn {
+    background-color: white;
+    border: 1px solid #ddd;
+}
+
+.google-icon {
+    margin-right: 10px;
+    width: 20px;
+}
+
+/* Link styling */
+.forgot-link {
+    color: #00B0F0;
+    text-decoration: none;
+}
+
+.terms-link {
+    color: #00B0F0;
+}
+
+/* Form elements */
+.remember-me {
+    display: flex;
+    align-items: center;
+}
+
+.remember-me input {
+    margin-right: 5px;
+}
+
+/* Modal styling */
+#forgotPasswordModal .modal-content {
+    border-radius: 15px;
+}
+
+/* Signup styling */
+.signup-container {
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.illustration {
+    max-width: 100%;
+}
+
+.signup-text {
+    font-size: 14px;
+}
+
+.error-list {
+    padding-left: 20px;
+}
+
+/* Sidebar styling */
+.sidebar {
+    background-color: #212529;
+    min-height: 100vh;
+    color: #fff;
+    border-right: 1px solid #dee2e6;
+}
+
+.sidebar .nav-link {
+    color: #adb5bd;
+    padding: 0.8rem 1rem;
+    border-left: 3px solid transparent;
+}
+
+.sidebar .nav-link.active {
+    color: #fff;
+    background-color: rgba(255,255,255,0.1);
+    border-left: 3px solid #007bff;
+    font-weight: bold;
+}
+
+.sidebar .nav-link:hover {
+    color: #fff;
+    background-color: rgba(255,255,255,0.05);
+}
+
+.sidebar-link {
+    display: block;
+    color: #adb5bd;
+    padding: 0.8rem 1rem;
+    text-decoration: none;
+    border-left: 3px solid transparent;
+}
+
+.sidebar-link:hover {
+    color: #fff;
+    background-color: rgba(255,255,255,0.05);
+    text-decoration: none;
+}
+
+.sidebar-link.active {
+    color: #fff;
+    background-color: #87CEEB; /* sky blue */
+    border-left: 3px solid #007bff;
+}
+
+.sidebar-link i {
+    margin-right: 10px;
+    width: 20px;
+    text-align: center;
+}
+
+/* Admin navbar styling */
+.admin-navbar {
+    background-color: #343a40;
+}
+
+.admin-navbar .navbar-brand, 
+.admin-navbar .nav-link {
+    color: #fff;
+}
+
+/* Content area styling */
+.content-area {
+    padding: 20px;
+}
+
+/* Card styling */
+.dashboard-card {
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    margin-bottom: 20px;
+}
+
+.dashboard-card:hover {
+    transform: translateY(-5px);
+}
+
+.card-icon {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.stat-card {
+    border-left: 4px solid;
+}
+
+.stat-icon {
+    font-size: 2rem;
+    opacity: 0.8;
+}
+
+.dashboard-stat {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.stat-label {
+    color: #6c757d;
+    font-size: 14px;
+}
+
+/* User avatar styling */
+.user-avatar {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.nav-user {
+    display: flex;
+    align-items: center;
+}
+
+/* Hover effect on popular houses images */
+.popular-house-img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.popular-house-img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+    z-index: 10;
+    position: relative;
+    border-radius: 5px;
+}
